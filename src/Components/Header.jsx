@@ -6,11 +6,11 @@ export default function Header() {
     <main className="h-[720px] flex justify-center items-center">
       <section className="w-[40%] bg-white border border-white rounded-xl p-8 relative top-28">
         <img
-          className="mt-3"
+          className="mt-3 w-8"
           src={require("../images/icon-star.svg").default}
           alt="star"
         />
-        <h1 className="font-bold text-5xl text-darkPurple absolute top-10 left-20">
+        <h1 className="font-bold text-4xl text-darkPurple absolute top-10 left-20">
           FAQs
         </h1>
 
