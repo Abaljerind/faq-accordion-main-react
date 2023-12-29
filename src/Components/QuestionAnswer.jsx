@@ -4,8 +4,7 @@ export default function QuestionAnswer(props) {
       <p className="question text-darkPurple font-bold text-base">
         {props.question}
       </p>
-      <p className="answer text-grayishPurple text-sm">{props.answer}</p>
-      <hr class="h-px my-8 bg-lightPink border-0"></hr>
+      <p className="answer text-grayishPurple text-sm mt-4">{props.answer}</p>
       <img
         className="absolute -top-1 cursor-pointer right-0"
         src={require("../images/icon-plus.svg").default}
