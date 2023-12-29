@@ -3,15 +3,16 @@ import QuestionAnswer from "./QuestionAnswer";
 export default function Header() {
   return (
     <main className="h-[720px] flex justify-center items-center">
-      <section className="w-4/12 bg-white border border-white rounded-xl p-6 relative">
+      <section className="w-[40%] bg-white border border-white rounded-xl p-8 relative top-28">
         <img
-          className=""
+          className="mt-3"
           src={require("../images/icon-star.svg").default}
           alt="star"
         />
-        <h1 className="font-bold text-5xl text-darkPurple absolute top-5 left-20">
+        <h1 className="font-bold text-5xl text-darkPurple absolute top-10 left-20">
           FAQs
         </h1>
+
         <QuestionAnswer
           question="What is Frontend Mentor, and how will it help me?"
           answer="Frontend Mentor offers realistic coding challenges to help developers improve their frontend coding skills with projects in HTML, CSS, and JavaScript. It's suitable for all levels and ideal for portfolio building."
