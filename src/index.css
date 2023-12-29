@@ -3,6 +3,9 @@
 @tailwind utilities;
 
 body {
+  background: url("./images/background-pattern-desktop.svg") no-repeat top;
+  background-size: 100%;
+  background-color: hsl(275, 100%, 97%);
   margin: 0;
   font-family: "Work Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
